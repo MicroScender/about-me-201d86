@@ -1,4 +1,5 @@
 'use strict';
+let score = 0;
 
 console.log('yyyooooo woooorrlllddd!!!'); 
 
@@ -18,6 +19,7 @@ let edu =prompt('Did Joseph attend FRCC to pursue creative writing?').toLowerCas
 if(edu === 'yes'|| edu==='y'){
  console.log(edu);
 alert('Yepper. Only four more questions to gooooooo!!!!');
+score++;
 }else{
   // console.log(edu);
   alert('Well, it\'s a 50/50 chance if you didn\'t read the material. No more tries for you! Only four more questions!!!!');
@@ -66,11 +68,11 @@ while (i<4 && guess != digit){
   guess = prompt('Too low. Guess again young grasshoppa!');
  } 
  
-
-//  console.log(answers);
-// answers.includes('language');
-// console.log('true');
-
+ 
+ //  console.log(answers);
+ // answers.includes('language');
+ // console.log('true');
+ 
 
 
 // let answers;
@@ -104,6 +106,8 @@ if (answers.includes(moreprompts)){
 }
 
 console.log('end of while loop')
+
+alert(`Your score was ${score} out of 7`)
 // Human's tend to seperate themselves from the rest of nature. What makes us human? What makes us different then the other life forms present on this planet?
 
 
