@@ -14,96 +14,115 @@ alert(' Welcome ' + user + '! Good luck!');
 //   console.log('Might wanna grab one so you can change yourself when you soil your diapee!');
 // }
 
-let edu =prompt('Did Joseph attend FRCC to pursue creative writing?').toLowerCase();
-if(edu === 'yes'|| edu==='y'){
- console.log(edu);
-alert('Yepper. Only four more questions to gooooooo!!!!');
-}else{
-  // console.log(edu);
-  alert('Well, it\'s a 50/50 chance if you didn\'t read the material. No more tries for you! Only four more questions!!!!');
+function q1(){
+  let edu =prompt('Did Joseph attend FRCC to pursue creative writing?').toLowerCase();
+  if(edu === 'yes'|| edu==='y'){
+    console.log(edu);
+    alert('Yepper. Only four more questions to gooooooo!!!!');
+  }else{
+    // console.log(edu);
+    alert('Well, it\'s a 50/50 chance if you didn\'t read the material. No more tries for you! Only four more questions!!!!');
+  }
 }
+q1();
 
-let job =prompt('Did this guy have a stable career at any point?').toLowerCase();
-if(job==='yes'||job==='y'){
-  // console.log('Nope, try again. Oh wait...you can\'t. Only three questions left.');
-  alert('Nope, try again. Oh wait...you can\'t. Only three questions left.');
-}else{
-  // console.log('You are quite correct. Luckily there\'s only three more questions.');
-  alert('You are quite correct. Luckily there\'s only three more questions.');
+function q2(){
+  let job =prompt('Did this guy have a stable career at any point?').toLowerCase();
+  if(job==='yes'||job==='y'){
+    // console.log('Nope, try again. Oh wait...you can\'t. Only three questions left.');
+    alert('Nope, try again. Oh wait...you can\'t. Only three questions left.');
+  }else{
+    // console.log('You are quite correct. Luckily there\'s only three more questions.');
+    alert('You are quite correct. Luckily there\'s only three more questions.');
+  }
 }
+q2();
 
-let mil =prompt('Did Joseph go to the fleet undesignated?');
-if(mil==='yes'||mil==='y'){
-  // console.log('Bet that guy did a lotta painting. Two more questions...');
-  alert('Bet that guy did a lotta painting. Two more questions...');
-}else{
-  // console.log('Nope. This guy spent many glorious days hanging with the ol\' haze gray. Two more.');
-  alert('Nope. This guy spent many glorious days hanging with the ol\' haze gray. Two more.');
+function q3(){
+  let mil =prompt('Did Joseph go to the fleet undesignated?');
+  if(mil==='yes'||mil==='y'){
+    // console.log('Bet that guy did a lotta painting. Two more questions...');
+    alert('Bet that guy did a lotta painting. Two more questions...');
+  }else{
+    // console.log('Nope. This guy spent many glorious days hanging with the ol\' haze gray. Two more.');
+    alert('Nope. This guy spent many glorious days hanging with the ol\' haze gray. Two more.');
+  }
 }
+q3();
 
-let fav =prompt('Bet Joseph loves writing about himself, doesn\'t he?');
-if(fav==='yes'||fav==='y'){
-// console.log('You are quite incorrect. Uno mas.');
-alert('You are quite incorrect. Uno mas.');
-}else{
-  // console.log('Sure doesn\'t. One more to go.');
-  alert('Sure doesn\'t. One more to go.');
+function q4(){
+  let fav =prompt('Bet Joseph loves writing about himself, doesn\'t he?');
+  if(fav==='yes'||fav==='y'){
+  // console.log('You are quite incorrect. Uno mas.');
+    alert('You are quite incorrect. Uno mas.');
+  }else{
+    // console.log('Sure doesn\'t. One more to go.');
+    alert('Sure doesn\'t. One more to go.');
+  }
 }
+q4();
 
-let  birth =prompt('Was this guy born?').toLowerCase();
-if(birth === 'yes'|| birth ==='y'){
-// console.log('Who wasn\'t?');
-alert('My dear ' + user + ' who wasn\'t? Congrats on finishing the questionnare which I\'m sure appeared before you had an opportunity to read any of the provided bio.');
-}else{
+function q5(){
+  let  birth =prompt('Was this guy born?').toLowerCase();
+  if(birth === 'yes'|| birth ==='y'){
   // console.log('Who wasn\'t?');
-  alert('My dear ' + user + ' who wasn\'t? Congrats on finishing the questionnare which I\'m sure appeared before you had an opportunity to read any of the provided bio. Phew. Finally done with the prompts and questions.');
+    alert('My dear ' + user + ' who wasn\'t? Congrats on finishing the questionnare which I\'m sure appeared before you had an opportunity to read any of the provided bio.');
+  }else{
+    // console.log('Who wasn\'t?');
+    alert('My dear ' + user + ' who wasn\'t? Congrats on finishing the questionnare which I\'m sure appeared before you had an opportunity to read any of the provided bio. Phew. Finally done with the prompts and questions.');
+  }
 }
-let i=1;
-let digit = 4;
-let guess = prompt('Surprise!!! The prompts continue!!! AAHAHAHAHAHAH!!!! Now, guess a number 1-4!!!');
-while (i<4 && guess != digit){
-  i++;
-  guess = prompt('Too low. Guess again young grasshoppa!');
- } 
- 
+q5();
+
+function q6(){
+  let i=1;
+  let digit = 4;
+  let guess = prompt('Surprise!!! The prompts continue!!! AAHAHAHAHAHAH!!!! Now, guess a number 1-4!!!');
+  while (i<4 && guess != digit){
+    i++;
+    guess = prompt('Too low. Guess again young grasshoppa!');
+  }
+}
+q6();
 
 //  console.log(answers);
 // answers.includes('language');
 // console.log('true');
 
 
-
-// let answers;
-let answers =['language', 'imagination' , 'morality', 'introspection', 'knowledge', 'metacognition', 'prefrontal cortex', 'culture'];
-
-
-// for  (let i = 0; i < 6; i++){
-//   let question =prompt ('Humans tend to seperate themselves from the rest of nature. What makes us human? What makes us different then the other life forms present on this planet? Consider abstract concepts and a single part of the body besides opposable thumbs. Answers can be up to two words. Ya\'ll get six tries.').toLowerCase();
-//   for (let j = 0; j < answers.length; j++){
-//     if (question === answers [j]){
-//       alert('correct!')
-//       i = 6;
-//       break;
-//     }
-//   }
-// } 
-
-let x = 0;
-console.log(x)
-let moreprompts =prompt ('Humans tend to seperate themselves from the rest of nature. What makes us human? What makes us different than the other life forms present on this planet? Consider abstract concepts and a single part of the body besides opposable thumbs. Answers can be up to two words. Ya\'ll get six tries.').toLowerCase();
-console.log(moreprompts)
-while (x < 6 && answers.includes(moreprompts) == false){
-  x++;
-  console.log(x)
-  moreprompts =prompt('Keep guessing.');
+function q7(){
+  // let answers;
+  let answers =['language', 'imagination' , 'morality', 'introspection', 'knowledge', 'metacognition', 'prefrontal cortex', 'culture'];
+  
+  
+  // for  (let i = 0; i < 6; i++){
+  //   let question =prompt ('Humans tend to seperate themselves from the rest of nature. What makes us human? What makes us different then the other life forms present on this planet? Consider abstract concepts and a single part of the body besides opposable thumbs. Answers can be up to two words. Ya\'ll get six tries.').toLowerCase();
+  //   for (let j = 0; j < answers.length; j++){
+  //     if (question === answers [j]){
+  //       alert('correct!')
+  //       i = 6;
+  //       break;
+  //     }
+  //   }
+  // } 
+  
+  let x = 0;
+  console.log(x);
+  let moreprompts =prompt ('Humans tend to seperate themselves from the rest of nature. What makes us human? What makes us different than the other life forms present on this planet? Consider abstract concepts and a single part of the body besides opposable thumbs. Answers can be up to two words. Ya\'ll get six tries.').toLowerCase();
+  console.log(moreprompts);
+  while (x < 6 && answers.includes(moreprompts) == false){
+    x++;
+    console.log(x);
+    moreprompts =prompt('Keep guessing.');
+  }
+  if (answers.includes(moreprompts)){
+    alert('That\'ll do. Welcome to a good ol boring read.');
+  }else{
+    alert('Not quite, but it\'s alright. Seems like whether you were right or wronng, you ended up in the same place.');
+  }
+  console.log('end of while loop');
 }
-if (answers.includes(moreprompts)){
-  alert('That\'ll do. Welcome to a good ol boring read.');
-}else{
-  alert('Not quite, but it\'s alright. Seems like whether you were right or wronng, you ended up in the same place.');
-}
-
-console.log('end of while loop')
+q7();
 // Human's tend to seperate themselves from the rest of nature. What makes us human? What makes us different then the other life forms present on this planet?
 
 
