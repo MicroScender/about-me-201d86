@@ -15,16 +15,6 @@ alert(' Welcome ' + user + '! Good luck!');
 //   console.log('Might wanna grab one so you can change yourself when you soil your diapee!');
 // }
 
-<<<<<<< HEAD
-let edu =prompt('Did Joseph attend FRCC to pursue creative writing?').toLowerCase();
-if(edu === 'yes'|| edu==='y'){
- console.log(edu);
-alert('Yepper. Only four more questions to gooooooo!!!!');
-score++;
-}else{
-  // console.log(edu);
-  alert('Well, it\'s a 50/50 chance if you didn\'t read the material. No more tries for you! Only four more questions!!!!');
-=======
 function q1(){
   let edu =prompt('Did Joseph attend FRCC to pursue creative writing?').toLowerCase();
   if(edu === 'yes'|| edu==='y'){
@@ -34,7 +24,6 @@ function q1(){
     // console.log(edu);
     alert('Well, it\'s a 50/50 chance if you didn\'t read the material. No more tries for you! Only four more questions!!!!');
   }
->>>>>>> e126118dd3782acaefe996c3a2ab4f977e24e5e7
 }
 q1();
 
@@ -84,21 +73,6 @@ function q5(){
     alert('My dear ' + user + ' who wasn\'t? Congrats on finishing the questionnare which I\'m sure appeared before you had an opportunity to read any of the provided bio. Phew. Finally done with the prompts and questions.');
   }
 }
-<<<<<<< HEAD
-let i=1;
-let digit = 4;
-let guess = prompt('Surprise!!! The prompts continue!!! AAHAHAHAHAHAH!!!! Now, guess a number 1-4!!!');
-while (i<4 && guess != digit){
-  i++;
-  guess = prompt('Too low. Guess again young grasshoppa!');
- } 
- 
- 
- //  console.log(answers);
- // answers.includes('language');
- // console.log('true');
- 
-=======
 q5();
 
 function q6(){
@@ -116,7 +90,6 @@ q6();
 // answers.includes('language');
 // console.log('true');
 
->>>>>>> e126118dd3782acaefe996c3a2ab4f977e24e5e7
 
 function q7(){
   // let answers;
@@ -150,19 +123,10 @@ function q7(){
   }
   console.log('end of while loop');
 }
-<<<<<<< HEAD
-if (answers.includes(moreprompts)){
-  alert('That\'ll do. Welcome to a good ol boring read.');
-}else{
-  alert('Not quite, but it\'s alright. Seems like whether you were right or wronng, you ended up in the same place.');
-}
-
-console.log('end of while loop')
-
-alert(`Your score was ${score} out of 7`)
-=======
 q7();
->>>>>>> e126118dd3782acaefe996c3a2ab4f977e24e5e7
+
+
+
 // Human's tend to seperate themselves from the rest of nature. What makes us human? What makes us different then the other life forms present on this planet?
 
 
